@@ -1,14 +1,14 @@
 <h1 align="center">
-  Site do filme Mario Bros
+  Site do Jogo Sonic Dream TEAM
 </h1>
 
 <p align="center">
-  <img src=".github/preview.png" width="100%" />
+  <img src="" width="100%" />
 </p>
 
 ## 💻 Projeto
 
-Este projeto é um tutorial que ensina a como criar o site do filme **Mario Bros** ao usar _HTML_ e _CSS_.
+Este projeto é baseado no tutorial e template do Léo Vargas https://github.com/leovargasdev/youtube-site-mario
 
 ## 🚀 Tecnologias
 
@@ -25,11 +25,6 @@ Este projeto é um tutorial que ensina a como criar o site do filme **Mario Bros
 - [x] Uso do CSS Flexbox
 - [x] Efeitos com a propriedade `transform` do css
 
-
-## 📝 Tema de casa
-
-- [ ] Criar responsividade
-- [ ] Adicionar efeito de hover nos botões
 
 ## 📺 Tutorial no Youtube
 
