@@ -11,6 +11,14 @@ header {
 header img {
     width: 60px;
     height: auto;
+    transition: all 0.5s ease;
+
+}
+
+header img:hover {
+    color: blue;
+    transform: rotate(359deg);
+    transition: all 0.5s ease;
 }
 
 .navigation {
@@ -75,3 +83,4 @@ header img {
     transform: translateY(-5px);
     cursor: pointer
 }
+

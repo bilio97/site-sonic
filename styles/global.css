@@ -39,3 +39,88 @@ button:hover {
   overflow: hidden;
 
 }
+
+#app .sonic_correndo{
+    bottom: 110px;
+    position: absolute;
+}
+
+.corrida {
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  max-width: 1440px;
+  margin-top: 200px;
+}
+
+.fase {
+  width: 70%;
+  height: auto;
+  left: -100px;
+  position: absolute;
+}
+
+.fase2 {
+  width: 70%;
+  height: auto;
+  position: absolute;
+  max-width: 1440px;
+  left: 1230px;
+  object-position: -620px -4px;
+  z-index: -1;
+}
+
+
+
+
+.soniccorrendo {
+  bottom: -550px;
+  position: absolute;
+  width: 100px;
+  left: 0;
+  z-index: 1;
+  animation: 2s sonic_animation infinite linear;
+} 
+
+.sonicrolando {
+  bottom: -550px;
+  position: absolute;
+  width: 100px;
+  left: 450px;
+  opacity: 0;
+  animation: 2s sonic_rolando infinite linear;
+  animation-delay: 1s;
+}
+
+
+@keyframes sonic_animation {
+  0% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  50%{
+    transform: translateX(550px);
+    opacity: 0.7;
+}
+  100% {
+     transform: translateX(900px);
+     opacity: 0;
+  }
+  
+}
+
+@keyframes sonic_rolando {
+  0% {
+    transform: translateX(0px);
+  }
+  50%{
+      transform: translateX(550px);
+      opacity: 0.5;
+  }
+  100% {
+      transform: translateX(1300px);
+      opacity: 1;
+  }
+}
+
+
